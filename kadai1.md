@@ -10,7 +10,9 @@
 
 1/2サンプリングの結果を図２に示す．
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/image/kadai1_1.png?raw=true)  
+
+![1](https://user-images.githubusercontent.com/19383267/50393400-61942400-0799-11e9-9d10-6183ef359474.PNG)
+
 図2 1/2サンプリング
 
 同様に原画像をさらに1/2サンプリングしていくには
@@ -18,18 +20,27 @@
 IMG = imresize(ORG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
-とすればよい．1/4サンプリングから1/32サンプリングの結果を以下の図3～6に示す．
+とすればよい．1/4サンプリングから1/64サンプリングの結果を以下の図3～6に示す．
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/image/kadai1_2.png?raw=true)  
+![2](https://user-images.githubusercontent.com/19383267/50393408-7375c700-0799-11e9-8632-f7c7d9c27bf4.PNG)
+
 図3 1/4サンプリング
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/image/kadai1_3.png?raw=true)  
+![3](https://user-images.githubusercontent.com/19383267/50393416-87212d80-0799-11e9-81b6-3b6f76f6d9fc.PNG)
+
 図4 1/8サンプリング
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/image/kadai1_4.png?raw=true)  
+![4](https://user-images.githubusercontent.com/19383267/50393415-86889700-0799-11e9-97ed-fe321414b330.PNG)
+
 図5 1/16サンプリング
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/image/kadai1_5.png?raw=true)  
+![5](https://user-images.githubusercontent.com/19383267/50393418-87212d80-0799-11e9-8ecb-319bae2cc236.PNG)
+
 図6 1/32サンプリング
+
+![6](https://user-images.githubusercontent.com/19383267/50393417-87212d80-0799-11e9-92d0-948f92e86485.PNG)
+
+図7 1/64サンプリング
+
 
 サンプリングの幅が大きくなるにつれて、モザイクの大きさも同様に大きくなっていることがわかる．
