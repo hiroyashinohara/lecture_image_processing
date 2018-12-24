@@ -4,7 +4,7 @@
 
 現画像を1/2サンプリングせずに表示した結果を図１に示す．
 
-![原画像](https://github.com/mackhasegawa/lecture_image_processing/blob/master/image/org_img.png?raw=true)  
+![lenna](https://user-images.githubusercontent.com/19383267/50393347-03ffd780-0799-11e9-9c54-85b4bad38bed.png)
 図1 原画像
 
 1/2サンプリングの結果を図２に示す．
