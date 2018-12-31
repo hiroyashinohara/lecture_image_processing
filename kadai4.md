@@ -5,7 +5,7 @@
 まず初めに、カラー画像を白黒濃淡画像へ変換した．
 以下の図１に白黒濃淡画像を示す．
 
-![1](https://user-images.githubusercontent.com/19383267/50560215-c8897e00-0d41-11e9-922e-e47fedc2bf9b.PNG)
+![1](https://user-images.githubusercontent.com/19383267/50560630-13a59000-0d46-11e9-802b-d416cb4e5cde.PNG)
 
 図１．白黒濃淡画像
 
@@ -15,6 +15,6 @@ imhist(ORG);
 
 上記のコードによって生成された濃度ヒストグラムを以下の図２に示す．
 
-![2](https://user-images.githubusercontent.com/19383267/50560214-c7f0e780-0d41-11e9-908a-745799c27c3a.PNG)
+![2](https://user-images.githubusercontent.com/19383267/50560629-13a59000-0d46-11e9-96c2-d5350372e1ff.PNG)
 
 白黒画像のため、白色に近い成分が多く検出されていることがわかる．
